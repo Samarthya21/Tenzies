@@ -55,7 +55,7 @@ export default function App() {
     }
     return die;
   }));
-    
+      }
     const diceElements = dice.map(die => (
         <Die 
             key={die.id} 
